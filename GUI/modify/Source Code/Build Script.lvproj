@@ -17,6 +17,8 @@
 		<Item Name="TS Full LabVIEW UI Dependencies.lvlib" Type="Library" URL="../TestExec.llb/TS Full LabVIEW UI Dependencies.lvlib"/>
 		<Item Name="TestExec.ini" Type="Document" URL="../Settings/TestExec.ini"/>
 		<Item Name="TestExec.exe.Manifest" Type="Document" URL="../TestExec.exe.Manifest"/>
+		<Item Name="GlobalLogo.vi" Type="VI" URL="../TestExec.llb/GlobalLogo.vi"/>
+		<Item Name="PictureLogo.ctl" Type="VI" URL="../TestExec.llb/PictureLogo.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="TestStand - LabVIEW Tab or AX Container.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/TestStand/_TSUISupport.llb/TestStand - LabVIEW Tab or AX Container.ctl"/>
@@ -128,6 +130,9 @@
 			<Item Name="Kernel32.dll" Type="Document" URL="Kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TestExec.exe" Type="EXE">
@@ -159,7 +164,7 @@
 				<Property Name="Source[0].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{ABB89545-815B-40D1-B169-F0F1605BD753}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6137623C-8597-4C05-BCDC-CDAF0F64A4B4}</Property>
 				<Property Name="Source[0].newName" Type="Str">Full UI - </Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
