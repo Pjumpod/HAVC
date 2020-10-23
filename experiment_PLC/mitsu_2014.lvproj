@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="14008000">
+<Project Type="Project" LVVersion="20008000">
+	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Property Name="varPersistentID:{C2EF1F3B-AE88-4925-884D-E8BB0080934D}" Type="Ref">/My Computer/mitsu.lvlib/192.168.3.39_test</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -21,6 +22,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="mitsu.lvlib" Type="Library" URL="../mitsu.lvlib"/>
 		<Item Name="mitsu.vi" Type="VI" URL="../mitsu.vi"/>
+		<Item Name="PickingControl.vi" Type="VI" URL="../../Source/PickingControl.vi"/>
+		<Item Name="test.vi" Type="VI" URL="../../Source/test.vi"/>
+		<Item Name="TestOPC.vi" Type="VI" URL="../TestOPC.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
