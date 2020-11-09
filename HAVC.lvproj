@@ -27,6 +27,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="mitsu.vi" Type="VI" URL="../experiment_PLC/mitsu.vi"/>
+		<Item Name="MainScreen.vi" Type="VI" URL="../MainScreen.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
