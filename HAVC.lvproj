@@ -88,7 +88,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{86815A07-BE8C-4EF7-A974-A5EC40F37241}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">HVAC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/HVAC.exe</Property>
@@ -99,7 +99,7 @@
 				<Property Name="Destination[1].path" Type="Path">../build/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8A73093D-C2A1-42D3-999B-8FEA143C7814}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{18A542F7-11EB-4695-AFF9-E109BB5F9CB2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MainScreen.vi</Property>
