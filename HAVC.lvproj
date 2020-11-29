@@ -26,7 +26,6 @@
 		<Item Name="Source" Type="Folder" URL="../Source">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="mitsu.vi" Type="VI" URL="../experiment_PLC/mitsu.vi"/>
 		<Item Name="MainScreen.vi" Type="VI" URL="../MainScreen.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -88,7 +87,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{86815A07-BE8C-4EF7-A974-A5EC40F37241}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">HVAC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/HVAC.exe</Property>
