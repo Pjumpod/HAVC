@@ -1,0 +1,8 @@
+https://download.ni.com/support/nipkg/products/ni-l/ni-labview-2020-x86/20.0/offline/ni-labview-2020-x86_20.0.0.49153-0+f1_offline.iso
+https://download.ni.com/support/nipkg/products/ni-t/ni-teststand-2020/20.0/offline/ni-teststand-2020_20.0.0_offline.iso
+https://download.ni.com/support/nipkg/products/ni-t/ni-teststand-2020-x86/20.0/offline/ni-teststand-2020-x86_20.0.0_offline.iso
+https://download.ni.com/support/nipkg/products/ni-o/ni-opc-servers/16.0/offline/ni-opc-servers_16.0.2_offline.iso
+https://download.ni.com/support/nipkg/products/ni-l/ni-labview-2020-dsc-module-x86/20.0/offline/ni-labview-2020-dsc-module-x86_20.0.0_offline.iso
+https://download.ni.com/support/nipkg/products/ni-m/ni-mstudio/19.0/offline/ni-mstudio_19.0.3.49153-0+f1_offline.iso
+https://osdn.net/projects/tortoisesvn/storage/1.14.0/Application/TortoiseSVN-1.14.0.28885-win32-svn-1.14.0.msi/
+https://osdn.net/projects/tortoisesvn/storage/1.14.0/Application/TortoiseSVN-1.14.0.28885-x64-svn-1.14.0.msi/
