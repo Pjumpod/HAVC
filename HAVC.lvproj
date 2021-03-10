@@ -76,6 +76,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{07F335C9-13D2-4044-9F71-6422AFE3DBF0}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{9FE9B340-A946-4AB4-B721-2FC5B391CD3F}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">HVAC</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -99,7 +100,7 @@
 				<Property Name="Destination[1].path" Type="Path">../build/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{38ABF02B-7C5A-422A-9B0A-609453A74DCC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A4CC058C-B131-4F40-BA41-421E180690FE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MainScreen.vi</Property>
