@@ -1,0 +1,28 @@
+<!DOCTYPE System-Monitor-Workspace>
+<System-Monitor-Workspace path="C:/HVAC/OPC/DSM.smw" >
+ <state w="700" x="200" y="200" h="500" max="false" >AAAA/wAAAAD9AAAAAgAAAAEAAAD6AAABqPwCAAAABfsAAAAcAEEAdQB0AG8AIABWAGkAZQB3AF8ARABvAGMAawEAAAA3AAABqAAAAHgA////+wAAAGoAbABvAGMAYQBsAGgAbwBzAHQAXwBEAG8AYwBrAF8AewBhAGMAOAA4ADcAMgA0ADcALQBiAGMAYgBlAC0ANAA5AGEAZQAtADgAMAA4ADgALQA5AGMAOAA5ADkAOAA3ADQANwA2AGIANQB9AwAAAdYAAAC4AAAC+AAAAfT7AAAAagBsAG8AYwBhAGwAaABvAHMAdABfAEQAbwBjAGsAXwB7AGQAYgA2AGIAZQBjADAAMAAtAGUANgA1ADEALQA0ADEAOAAzAC0AOABkADMAOAAtADQANwA3ADQAOQA2AGEAYwA4ADcAMABmAH0DAAABLAAAASwAAAL4AAAB9PsAAABwAFcAYQB0AGMAaAAgAEwAaQBzAHQAIAAxAF8ARABvAGMAawBfAHsAZQA1AGUAMQA4ADEAMAA3AC0AYgBjAGQANgAtADQANAA5ADYALQBiADkAMgA1AC0ANAAxADYANwA3ADEAMAAxAGYAMgA3AGEAfQMAAAEsAAABLAAAAZAAAADI+wAAAF4ATwBQAEMAXwBEAG8AYwBrAF8AewAyADkANABjADUANQA2ADUALQA4ADgANABlAC0ANAA0ADkAZQAtADgAZgBiADcALQAzADcAYgBkADIAOQA0AGMAZgAwADkAMgB9AwAAASwAAAEsAAAC+AAAAfQAAAAD///////////8AQAAAAH7AAAALABBAGwAYQByAG0AcwAgAGEAbgBkACAARQB2AGUAbgB0AHMAXwBEAG8AYwBrAAAAAAD/////AAACxwD///8AAAG8AAABqAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAAB/////wEAAAAA/////wAAAAAAAAAA</state>
+ <Tree>
+  <system>localhost</system>
+  <selection>\\localhost\OPC</selection>
+ </Tree>
+ <System-Event-Window>
+  <Alarms-Window>
+   <column width="216" shown="1" index="0" />
+   <column width="0" shown="0" index="1" />
+   <column width="0" shown="0" index="2" />
+   <column width="130" shown="1" index="3" />
+   <column width="0" shown="0" index="4" />
+   <column width="0" shown="0" index="5" />
+   <column width="0" shown="0" index="6" />
+   <column width="0" shown="0" index="7" />
+   <column width="0" shown="0" index="8" />
+   <column width="0" shown="0" index="9" />
+   <column width="0" shown="0" index="10" />
+   <column width="0" shown="0" index="11" />
+   <column width="139" shown="1" index="12" />
+   <column width="0" shown="0" index="13" />
+   <column width="0" shown="0" index="14" />
+   <filter flags="0" desc="" setuser="" showalarm="1" showevent="1" url="" min="0" comment="" max="0" area="" ackuser="" />
+  </Alarms-Window>
+ </System-Event-Window>
+</System-Monitor-Workspace>
