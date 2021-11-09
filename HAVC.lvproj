@@ -69,8 +69,13 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="RecordinsideStep.vi" Type="VI" URL="../HVAC.llb/RecordinsideStep.vi"/>
-			<Item Name="SendPN2PLC.vi" Type="VI" URL="../HVAC.llb/SendPN2PLC.vi"/>
 			<Item Name="String2BCCD.vi" Type="VI" URL="../HVAC.llb/String2BCCD.vi"/>
+			<Item Name="Alias.vi" Type="VI" URL="../HVAC.llb/Alias.vi"/>
+			<Item Name="GlobalVariable.vi" Type="VI" URL="../HVAC.llb/GlobalVariable.vi"/>
+			<Item Name="SendCPN2PLC.vi" Type="VI" URL="../HVAC.llb/SendCPN2PLC.vi"/>
+			<Item Name="GetDataFromMain.vi" Type="VI" URL="../HVAC.llb/GetDataFromMain.vi"/>
+			<Item Name="BCD2String.vi" Type="VI" URL="../HVAC.llb/BCD2String.vi"/>
+			<Item Name="CheckInterlocking.vi" Type="VI" URL="../HVAC.llb/CheckInterlocking.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HVAC" Type="EXE">
@@ -91,7 +96,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{86815A07-BE8C-4EF7-A974-A5EC40F37241}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">30</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">HVAC.exe</Property>
