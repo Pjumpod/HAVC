@@ -23,9 +23,7 @@
 		<Item Name="OPC" Type="Folder">
 			<Item Name="OPC.lvlib" Type="Library" URL="../OPC/OPC.lvlib"/>
 		</Item>
-		<Item Name="Source" Type="Folder" URL="../Source">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="Source" Type="Folder"/>
 		<Item Name="MainScreen.vi" Type="VI" URL="../MainScreen.vi"/>
 		<Item Name="GlobalVariable.vi" Type="VI" URL="../GlobalVariable.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -57,25 +55,38 @@
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
-				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="Sort 2D Array - Push Stack.vi" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array - Push Stack.vi"/>
 				<Item Name="Sort 2D Array - Pop Stack.vi" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array - Pop Stack.vi"/>
 				<Item Name="Assert Block Data Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Block Data Type.vim"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="PN.ctl" Type="VI" URL="../HVAC.llb/PN.ctl"/>
+			<Item Name="NewPNConfig.ctl" Type="VI" URL="../HVAC.llb/NewPNConfig.ctl"/>
+			<Item Name="InputPlanning.ctl" Type="VI" URL="../HVAC.llb/InputPlanning.ctl"/>
+			<Item Name="Sort2DArray_Descent.vim" Type="VI" URL="../HVAC.llb/Sort2DArray_Descent.vim"/>
+			<Item Name="ListSEQFile.vi" Type="VI" URL="../HVAC.llb/ListSEQFile.vi"/>
+			<Item Name="MachineControl.vi" Type="VI" URL="../HVAC.llb/MachineControl.vi"/>
+			<Item Name="PasswordBox.vi" Type="VI" URL="../HVAC.llb/PasswordBox.vi"/>
+			<Item Name="PrinterZT230_NoPLC.vi" Type="VI" URL="../HVAC.llb/PrinterZT230_NoPLC.vi"/>
+			<Item Name="NewPNConfig.vi" Type="VI" URL="../HVAC.llb/NewPNConfig.vi"/>
+			<Item Name="LoadConfig.vi" Type="VI" URL="../HVAC.llb/LoadConfig.vi"/>
+			<Item Name="GetDataFromMain.vi" Type="VI" URL="../HVAC.llb/GetDataFromMain.vi"/>
+			<Item Name="SaveConfig.vi" Type="VI" URL="../HVAC.llb/SaveConfig.vi"/>
+			<Item Name="checkPNhistory.vi" Type="VI" URL="../HVAC.llb/checkPNhistory.vi"/>
+			<Item Name="SendCPN2PLC.vi" Type="VI" URL="../HVAC.llb/SendCPN2PLC.vi"/>
+			<Item Name="ClearInterlock.vi" Type="VI" URL="../HVAC.llb/ClearInterlock.vi"/>
+			<Item Name="GetFileVersion.vi" Type="VI" URL="../HVAC.llb/GetFileVersion.vi"/>
+			<Item Name="CheckInterlocking.vi" Type="VI" URL="../HVAC.llb/CheckInterlocking.vi"/>
+			<Item Name="ReadScanner.vi" Type="VI" URL="../HVAC.llb/ReadScanner.vi"/>
+			<Item Name="dialogPrinter.vi" Type="VI" URL="../HVAC.llb/dialogPrinter.vi"/>
+			<Item Name="String2BCCD.vi" Type="VI" URL="../HVAC.llb/String2BCCD.vi"/>
+			<Item Name="SendPN2PLC.vi" Type="VI" URL="../HVAC.llb/SendPN2PLC.vi"/>
+			<Item Name="RecordinsideStep.vi" Type="VI" URL="../HVAC.llb/RecordinsideStep.vi"/>
+			<Item Name="BCD2String.vi" Type="VI" URL="../HVAC.llb/BCD2String.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RecordinsideStep.vi" Type="VI" URL="../HVAC.llb/RecordinsideStep.vi"/>
-			<Item Name="String2BCCD.vi" Type="VI" URL="../HVAC.llb/String2BCCD.vi"/>
-			<Item Name="Alias.vi" Type="VI" URL="../HVAC.llb/Alias.vi"/>
-			<Item Name="GlobalVariable.vi" Type="VI" URL="../HVAC.llb/GlobalVariable.vi"/>
-			<Item Name="SendCPN2PLC.vi" Type="VI" URL="../HVAC.llb/SendCPN2PLC.vi"/>
-			<Item Name="GetDataFromMain.vi" Type="VI" URL="../HVAC.llb/GetDataFromMain.vi"/>
-			<Item Name="BCD2String.vi" Type="VI" URL="../HVAC.llb/BCD2String.vi"/>
-			<Item Name="CheckInterlocking.vi" Type="VI" URL="../HVAC.llb/CheckInterlocking.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HVAC" Type="EXE">
