@@ -60,6 +60,7 @@
 				<Item Name="Sort 2D Array - Pop Stack.vi" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array - Pop Stack.vi"/>
 				<Item Name="Assert Block Data Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Block Data Type.vim"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 			</Item>
 			<Item Name="PN.ctl" Type="VI" URL="../HVAC.llb/PN.ctl"/>
 			<Item Name="NewPNConfig.ctl" Type="VI" URL="../HVAC.llb/NewPNConfig.ctl"/>
@@ -89,6 +90,7 @@
 			</Item>
 			<Item Name="LogForMachine.vi" Type="VI" URL="../HVAC.llb/LogForMachine.vi"/>
 			<Item Name="CheckInterlocking_1Station.vi" Type="VI" URL="../HVAC.llb/CheckInterlocking_1Station.vi"/>
+			<Item Name="CloneRemainUNITdata.vi" Type="VI" URL="../HVAC.llb/CloneRemainUNITdata.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HVAC" Type="EXE">
@@ -109,7 +111,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{86815A07-BE8C-4EF7-A974-A5EC40F37241}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">66</Property>
+				<Property Name="Bld_version.build" Type="Int">68</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">HVAC.exe</Property>
